@@ -4,7 +4,7 @@ const connectDB = require('./config/db')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const stripe = require("stripe")(
-    "sk_test_51HPvanLwjcUJ0f4S6kJmIPVSwqz4ZF8ishakXc6sCvhSsENVgMXWGuMiMfCyvZryohCK9H0rARbX8s6XBrA3Y3pv00Wi6sYfuI"
+    ""
   );
 // Config dotev
 require('dotenv').config({
